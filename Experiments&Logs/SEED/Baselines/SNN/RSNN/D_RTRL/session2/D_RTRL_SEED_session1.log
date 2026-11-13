@@ -1,0 +1,11 @@
+###################### Fold 1 ######################
+Training set data amount: 1665
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 210 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 0.6106698829481206
+Test | Loss: 1.1262 | Acc: 0.4901 | F1: 0.4860
+Fold 1 Network accuracy: 0.4900900900900901
+###################### Fold 2 ######################
+Training set data amount: 1665
+Starting SRNN + D_RTRL training (vmap batch)

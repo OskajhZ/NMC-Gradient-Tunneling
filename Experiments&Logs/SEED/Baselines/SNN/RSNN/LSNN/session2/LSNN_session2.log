@@ -1,0 +1,111 @@
+###################### Fold 1 ######################
+Training set data amount: 1665
+TensorBoard log dump location: logs/log_1
+Starting e-prop LSNN training (lr=0.0001, epochs=300, seq_len=200)
+  -> Early stopping triggered after 105 epochs.
+Final Test Loss: 0.9236 | Test Accuracy: 0.6721 | Test F1: 0.6641
+Fold 1 Network accuracy: 0.6720720720720721
+###################### Fold 2 ######################
+Training set data amount: 1665
+TensorBoard log dump location: logs/log_2
+Starting e-prop LSNN training (lr=0.0001, epochs=300, seq_len=200)
+  -> Early stopping triggered after 134 epochs.
+Final Test Loss: 2.4446 | Test Accuracy: 0.3982 | Test F1: 0.3797
+Fold 2 Network accuracy: 0.3981981981981982
+###################### Fold 3 ######################
+Training set data amount: 1665
+TensorBoard log dump location: logs/log_3
+Starting e-prop LSNN training (lr=0.0001, epochs=300, seq_len=200)
+  -> Early stopping triggered after 101 epochs.
+Final Test Loss: 1.3062 | Test Accuracy: 0.4865 | Test F1: 0.4500
+Fold 3 Network accuracy: 0.4864864864864865
+###################### Fold 4 ######################
+Training set data amount: 1665
+TensorBoard log dump location: logs/log_4
+Starting e-prop LSNN training (lr=0.0001, epochs=300, seq_len=200)
+  -> Early stopping triggered after 129 epochs.
+Final Test Loss: 1.5734 | Test Accuracy: 0.5351 | Test F1: 0.4946
+Fold 4 Network accuracy: 0.5351351351351351
+###################### Fold 5 ######################
+Training set data amount: 1665
+TensorBoard log dump location: logs/log_5
+Starting e-prop LSNN training (lr=0.0001, epochs=300, seq_len=200)
+  -> Early stopping triggered after 145 epochs.
+Final Test Loss: 5.5996 | Test Accuracy: 0.3658 | Test F1: 0.3655
+Fold 5 Network accuracy: 0.36576576576576575
+###################### Fold 6 ######################
+Training set data amount: 1665
+TensorBoard log dump location: logs/log_6
+Starting e-prop LSNN training (lr=0.0001, epochs=300, seq_len=200)
+  -> Early stopping triggered after 117 epochs.
+Final Test Loss: 1.0938 | Test Accuracy: 0.7802 | Test F1: 0.7777
+Fold 6 Network accuracy: 0.7801801801801802
+###################### Fold 7 ######################
+Training set data amount: 1665
+TensorBoard log dump location: logs/log_7
+Starting e-prop LSNN training (lr=0.0001, epochs=300, seq_len=200)
+  -> Early stopping triggered after 118 epochs.
+Final Test Loss: 1.3669 | Test Accuracy: 0.6829 | Test F1: 0.6787
+Fold 7 Network accuracy: 0.6828828828828829
+###################### Fold 8 ######################
+Training set data amount: 1665
+TensorBoard log dump location: logs/log_8
+Starting e-prop LSNN training (lr=0.0001, epochs=300, seq_len=200)
+  -> Early stopping triggered after 101 epochs.
+Final Test Loss: 0.6743 | Test Accuracy: 0.7441 | Test F1: 0.7378
+Fold 8 Network accuracy: 0.7441441441441441
+###################### Fold 9 ######################
+Training set data amount: 1665
+TensorBoard log dump location: logs/log_9
+Starting e-prop LSNN training (lr=0.0001, epochs=300, seq_len=200)
+  -> Early stopping triggered after 170 epochs.
+Final Test Loss: 2.1811 | Test Accuracy: 0.5405 | Test F1: 0.4616
+Fold 9 Network accuracy: 0.5405405405405406
+###################### Fold 10 ######################
+Training set data amount: 1665
+TensorBoard log dump location: logs/log_10
+Starting e-prop LSNN training (lr=0.0001, epochs=300, seq_len=200)
+  -> Early stopping triggered after 111 epochs.
+Final Test Loss: 1.4854 | Test Accuracy: 0.5153 | Test F1: 0.4824
+Fold 10 Network accuracy: 0.5153153153153153
+###################### Fold 11 ######################
+Training set data amount: 1665
+TensorBoard log dump location: logs/log_11
+Starting e-prop LSNN training (lr=0.0001, epochs=300, seq_len=200)
+  -> Early stopping triggered after 144 epochs.
+Final Test Loss: 0.6711 | Test Accuracy: 0.7459 | Test F1: 0.7484
+Fold 11 Network accuracy: 0.745945945945946
+###################### Fold 12 ######################
+Training set data amount: 1665
+TensorBoard log dump location: logs/log_12
+Starting e-prop LSNN training (lr=0.0001, epochs=300, seq_len=200)
+  -> Early stopping triggered after 101 epochs.
+Final Test Loss: 1.4440 | Test Accuracy: 0.4396 | Test F1: 0.4396
+Fold 12 Network accuracy: 0.43963963963963965
+###################### Fold 13 ######################
+Training set data amount: 1665
+TensorBoard log dump location: logs/log_13
+Starting e-prop LSNN training (lr=0.0001, epochs=300, seq_len=200)
+  -> Early stopping triggered after 106 epochs.
+Final Test Loss: 0.9270 | Test Accuracy: 0.7135 | Test F1: 0.7001
+Fold 13 Network accuracy: 0.7135135135135136
+###################### Fold 14 ######################
+Training set data amount: 1665
+TensorBoard log dump location: logs/log_14
+Starting e-prop LSNN training (lr=0.0001, epochs=300, seq_len=200)
+  -> Early stopping triggered after 129 epochs.
+Final Test Loss: 1.2265 | Test Accuracy: 0.4757 | Test F1: 0.4888
+Fold 14 Network accuracy: 0.4756756756756757
+###################### Fold 15 ######################
+Training set data amount: 1665
+TensorBoard log dump location: logs/log_15
+Starting e-prop LSNN training (lr=0.0001, epochs=300, seq_len=200)
+  -> Early stopping triggered after 101 epochs.
+Final Test Loss: 0.3393 | Test Accuracy: 0.8541 | Test F1: 0.8535
+Fold 15 Network accuracy: 0.8540540540540541
+Full Record:
+[{'accuracy': 0.6720720720720721, 'precision': 0.6856480882951471, 'recall': 0.672072072072072, 'f1': 0.6641314545781222}, {'accuracy': 0.3981981981981982, 'precision': 0.37625425170068033, 'recall': 0.3981981981981983, 'f1': 0.37967397064681724}, {'accuracy': 0.4864864864864865, 'precision': 0.5681089743589743, 'recall': 0.48648648648648657, 'f1': 0.45001447513172366}, {'accuracy': 0.5351351351351351, 'precision': 0.5503679856041724, 'recall': 0.5351351351351351, 'f1': 0.4946116183716562}, {'accuracy': 0.36576576576576575, 'precision': 0.4179474363780249, 'recall': 0.36576576576576575, 'f1': 0.36548426323823774}, {'accuracy': 0.7801801801801802, 'precision': 0.7969003873233658, 'recall': 0.7801801801801801, 'f1': 0.7776781484506198}, {'accuracy': 0.6828828828828829, 'precision': 0.7591113290710064, 'recall': 0.6828828828828829, 'f1': 0.678684480885769}, {'accuracy': 0.7441441441441441, 'precision': 0.7354547139231937, 'recall': 0.7441441441441441, 'f1': 0.7378048956172005}, {'accuracy': 0.5405405405405406, 'precision': 0.43308848550190976, 'recall': 0.5405405405405406, 'f1': 0.4615851438281345}, {'accuracy': 0.5153153153153153, 'precision': 0.47256771379154633, 'recall': 0.5153153153153154, 'f1': 0.48238823083213306}, {'accuracy': 0.745945945945946, 'precision': 0.7736565013871483, 'recall': 0.745945945945946, 'f1': 0.7484461692779982}, {'accuracy': 0.43963963963963965, 'precision': 0.4414307914307915, 'recall': 0.43963963963963965, 'f1': 0.43957940486342845}, {'accuracy': 0.7135135135135136, 'precision': 0.7338780793081868, 'recall': 0.7135135135135134, 'f1': 0.7001410846221012}, {'accuracy': 0.4756756756756757, 'precision': 0.5089804743146331, 'recall': 0.4756756756756757, 'f1': 0.48875884548721205}, {'accuracy': 0.8540540540540541, 'precision': 0.8540128524982932, 'recall': 0.8540540540540541, 'f1': 0.8534612727488761}]
+For accuracy: 59.66$\pm$4.84 %
+For precision: 60.72$\pm$5.11 %
+For recall: 59.66$\pm$4.84 %
+For f1: 58.15$\pm$5.07 %

@@ -1,0 +1,43 @@
+Output dim of feedback reservoir: 512
+###################### Fold 15 ######################
+Training set data amount: 1665
+Use CUDA
+Model dump location: models/model_state_dict_15.pt
+Log dump location: logs/log_15
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.1
+    maximize: False
+    weight_decay: 0.0001
+
+Parameter Group 1
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0
+    maximize: False
+    weight_decay: 0.0001
+)
+Trainer Initialization Finished.
+Training finished.
+Training loss: 0.4884164035320282, training accuracy: 0.884765625
+Highest validation F1: 0.4654885848391772
+Fold 15 Network accuracy: 0.5927927927927928
+Full Record:
+[{'accuracy': 0.5927927927927928, 'precision': 0.4348748622942171, 'recall': 0.5927927927927928, 'f1': 0.493166156179431, 'loss': 1.1801234670587488}]
+For accuracy: 59.28$\pm$nan %
+For precision: 43.49$\pm$nan %
+For recall: 59.28$\pm$nan %
+For f1: 49.32$\pm$nan %

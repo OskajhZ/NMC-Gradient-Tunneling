@@ -1,0 +1,223 @@
+###################### Fold 1 ######################
+Training set data amount: 1665
+Log dump location: logs/log_0
+FPTT Initialized: alpha=0.5, beta=0.5, rho=0.0, K=5
+Model dump location: models/model_state_dict_0.pt
+Trainer Initialization Finished.
+Starting training for 300 epochs...
+Inferred sequence length: 200
+  -> Learning rate decayed to 0.0005
+  -> Learning rate decayed to 0.00025
+  -> Learning rate decayed to 0.000125
+  -> Early stopping triggered after 139 epochs.
+Training finished. Best Epoch: 89, Best Val F1: 0.5449
+Final Test Results: Loss=1.1452, Acc=0.5081, F1=0.4803
+Fold 1 Network accuracy: 0.5081081081081081
+###################### Fold 2 ######################
+Training set data amount: 1665
+Log dump location: logs/log_0
+FPTT Initialized: alpha=0.5, beta=0.5, rho=0.0, K=5
+Model dump location: models/model_state_dict_0.pt
+Trainer Initialization Finished.
+Starting training for 300 epochs...
+Inferred sequence length: 200
+  -> Learning rate decayed to 0.0005
+  -> Learning rate decayed to 0.00025
+  -> Learning rate decayed to 0.000125
+  -> Early stopping triggered after 158 epochs.
+Training finished. Best Epoch: 108, Best Val F1: 0.3648
+Final Test Results: Loss=1.7233, Acc=0.2595, F1=0.2535
+Fold 2 Network accuracy: 0.2594594594594595
+###################### Fold 3 ######################
+Training set data amount: 1665
+Log dump location: logs/log_0
+FPTT Initialized: alpha=0.5, beta=0.5, rho=0.0, K=5
+Model dump location: models/model_state_dict_0.pt
+Trainer Initialization Finished.
+Starting training for 300 epochs...
+Inferred sequence length: 200
+  -> Learning rate decayed to 0.0005
+  -> Learning rate decayed to 0.00025
+  -> Early stopping triggered after 102 epochs.
+Training finished. Best Epoch: 52, Best Val F1: 0.6255
+Final Test Results: Loss=0.8079, Acc=0.5928, F1=0.5891
+Fold 3 Network accuracy: 0.5927927927927928
+###################### Fold 4 ######################
+Training set data amount: 1665
+Log dump location: logs/log_0
+FPTT Initialized: alpha=0.5, beta=0.5, rho=0.0, K=5
+Model dump location: models/model_state_dict_0.pt
+Trainer Initialization Finished.
+Starting training for 300 epochs...
+Inferred sequence length: 200
+  -> Learning rate decayed to 0.0005
+  -> Learning rate decayed to 0.00025
+  -> Early stopping triggered after 101 epochs.
+Training finished. Best Epoch: 34, Best Val F1: 0.4898
+Final Test Results: Loss=1.0151, Acc=0.5604, F1=0.5596
+Fold 4 Network accuracy: 0.5603603603603604
+###################### Fold 5 ######################
+Training set data amount: 1665
+Log dump location: logs/log_0
+FPTT Initialized: alpha=0.5, beta=0.5, rho=0.0, K=5
+Model dump location: models/model_state_dict_0.pt
+Trainer Initialization Finished.
+Starting training for 300 epochs...
+Inferred sequence length: 200
+  -> Learning rate decayed to 0.0005
+  -> Learning rate decayed to 0.00025
+  -> Learning rate decayed to 0.000125
+  -> Early stopping triggered after 150 epochs.
+Training finished. Best Epoch: 100, Best Val F1: 0.5560
+Final Test Results: Loss=1.2701, Acc=0.5279, F1=0.4537
+Fold 5 Network accuracy: 0.527927927927928
+###################### Fold 6 ######################
+Training set data amount: 1665
+Log dump location: logs/log_0
+FPTT Initialized: alpha=0.5, beta=0.5, rho=0.0, K=5
+Model dump location: models/model_state_dict_0.pt
+Trainer Initialization Finished.
+Starting training for 300 epochs...
+Inferred sequence length: 200
+  -> Learning rate decayed to 0.0005
+  -> Learning rate decayed to 0.00025
+  -> Early stopping triggered after 101 epochs.
+Training finished. Best Epoch: 13, Best Val F1: 0.5577
+Final Test Results: Loss=0.8024, Acc=0.5658, F1=0.5364
+Fold 6 Network accuracy: 0.5657657657657658
+###################### Fold 7 ######################
+Training set data amount: 1665
+Log dump location: logs/log_0
+FPTT Initialized: alpha=0.5, beta=0.5, rho=0.0, K=5
+Model dump location: models/model_state_dict_0.pt
+Trainer Initialization Finished.
+Starting training for 300 epochs...
+Inferred sequence length: 200
+  -> Learning rate decayed to 0.0005
+  -> Learning rate decayed to 0.00025
+  -> Early stopping triggered after 115 epochs.
+Training finished. Best Epoch: 65, Best Val F1: 0.5759
+Final Test Results: Loss=1.2030, Acc=0.5423, F1=0.4975
+Fold 7 Network accuracy: 0.5423423423423424
+###################### Fold 8 ######################
+Training set data amount: 1665
+Log dump location: logs/log_0
+FPTT Initialized: alpha=0.5, beta=0.5, rho=0.0, K=5
+Model dump location: models/model_state_dict_0.pt
+Trainer Initialization Finished.
+Starting training for 300 epochs...
+Inferred sequence length: 200
+  -> Learning rate decayed to 0.0005
+  -> Learning rate decayed to 0.00025
+  -> Learning rate decayed to 0.000125
+  -> Learning rate decayed to 6.25e-05
+  -> Early stopping triggered after 178 epochs.
+Training finished. Best Epoch: 128, Best Val F1: 0.7228
+Final Test Results: Loss=0.4949, Acc=0.7622, F1=0.7671
+Fold 8 Network accuracy: 0.7621621621621621
+###################### Fold 9 ######################
+Training set data amount: 1665
+Log dump location: logs/log_0
+FPTT Initialized: alpha=0.5, beta=0.5, rho=0.0, K=5
+Model dump location: models/model_state_dict_0.pt
+Trainer Initialization Finished.
+Starting training for 300 epochs...
+Inferred sequence length: 200
+  -> Learning rate decayed to 0.0005
+  -> Learning rate decayed to 0.00025
+  -> Early stopping triggered after 101 epochs.
+Training finished. Best Epoch: 15, Best Val F1: 0.5350
+Final Test Results: Loss=0.9082, Acc=0.5838, F1=0.5540
+Fold 9 Network accuracy: 0.5837837837837838
+###################### Fold 10 ######################
+Training set data amount: 1665
+Log dump location: logs/log_0
+FPTT Initialized: alpha=0.5, beta=0.5, rho=0.0, K=5
+Model dump location: models/model_state_dict_0.pt
+Trainer Initialization Finished.
+Starting training for 300 epochs...
+Inferred sequence length: 200
+  -> Learning rate decayed to 0.0005
+  -> Learning rate decayed to 0.00025
+  -> Learning rate decayed to 0.000125
+  -> Early stopping triggered after 121 epochs.
+Training finished. Best Epoch: 71, Best Val F1: 0.7053
+Final Test Results: Loss=1.2908, Acc=0.4631, F1=0.4355
+Fold 10 Network accuracy: 0.46306306306306305
+###################### Fold 11 ######################
+Training set data amount: 1665
+Log dump location: logs/log_0
+FPTT Initialized: alpha=0.5, beta=0.5, rho=0.0, K=5
+Model dump location: models/model_state_dict_0.pt
+Trainer Initialization Finished.
+Starting training for 300 epochs...
+Inferred sequence length: 200
+  -> Learning rate decayed to 0.0005
+  -> Learning rate decayed to 0.00025
+  -> Early stopping triggered after 101 epochs.
+Training finished. Best Epoch: 26, Best Val F1: 0.7004
+Final Test Results: Loss=0.6145, Acc=0.7550, F1=0.7492
+Fold 11 Network accuracy: 0.7549549549549549
+###################### Fold 12 ######################
+Training set data amount: 1665
+Log dump location: logs/log_0
+FPTT Initialized: alpha=0.5, beta=0.5, rho=0.0, K=5
+Model dump location: models/model_state_dict_0.pt
+Trainer Initialization Finished.
+Starting training for 300 epochs...
+Inferred sequence length: 200
+  -> Learning rate decayed to 0.0005
+  -> Learning rate decayed to 0.00025
+  -> Early stopping triggered after 101 epochs.
+Training finished. Best Epoch: 21, Best Val F1: 0.5843
+Final Test Results: Loss=0.6449, Acc=0.7838, F1=0.7806
+Fold 12 Network accuracy: 0.7837837837837838
+###################### Fold 13 ######################
+Training set data amount: 1665
+Log dump location: logs/log_0
+FPTT Initialized: alpha=0.5, beta=0.5, rho=0.0, K=5
+Model dump location: models/model_state_dict_0.pt
+Trainer Initialization Finished.
+Starting training for 300 epochs...
+Inferred sequence length: 200
+  -> Learning rate decayed to 0.0005
+  -> Learning rate decayed to 0.00025
+  -> Learning rate decayed to 0.000125
+  -> Early stopping triggered after 134 epochs.
+Training finished. Best Epoch: 84, Best Val F1: 0.4701
+Final Test Results: Loss=0.8905, Acc=0.5856, F1=0.5946
+Fold 13 Network accuracy: 0.5855855855855856
+###################### Fold 14 ######################
+Training set data amount: 1665
+Log dump location: logs/log_0
+FPTT Initialized: alpha=0.5, beta=0.5, rho=0.0, K=5
+Model dump location: models/model_state_dict_0.pt
+Trainer Initialization Finished.
+Starting training for 300 epochs...
+Inferred sequence length: 200
+  -> Learning rate decayed to 0.0005
+  -> Learning rate decayed to 0.00025
+  -> Early stopping triggered after 101 epochs.
+Training finished. Best Epoch: 44, Best Val F1: 0.5293
+Final Test Results: Loss=1.1914, Acc=0.4414, F1=0.4097
+Fold 14 Network accuracy: 0.44144144144144143
+###################### Fold 15 ######################
+Training set data amount: 1665
+Log dump location: logs/log_0
+FPTT Initialized: alpha=0.5, beta=0.5, rho=0.0, K=5
+Model dump location: models/model_state_dict_0.pt
+Trainer Initialization Finished.
+Starting training for 300 epochs...
+Inferred sequence length: 200
+  -> Learning rate decayed to 0.0005
+  -> Learning rate decayed to 0.00025
+  -> Early stopping triggered after 111 epochs.
+Training finished. Best Epoch: 61, Best Val F1: 0.9366
+Final Test Results: Loss=0.5518, Acc=0.7784, F1=0.7643
+Fold 15 Network accuracy: 0.7783783783783784
+Full Record:
+[{'accuracy': 0.5081081081081081, 'precision': 0.48510339828726573, 'recall': 0.5081081081081081, 'f1': 0.4802696123026206}, {'accuracy': 0.2594594594594595, 'precision': 0.2502606620311154, 'recall': 0.2594594594594595, 'f1': 0.25345065808022027}, {'accuracy': 0.5927927927927928, 'precision': 0.5877694322138766, 'recall': 0.5927927927927928, 'f1': 0.5891347562893735}, {'accuracy': 0.5603603603603604, 'precision': 0.571116615001208, 'recall': 0.5603603603603604, 'f1': 0.5596258695243467}, {'accuracy': 0.527927927927928, 'precision': 0.4275395059727563, 'recall': 0.527927927927928, 'f1': 0.45373294159641947}, {'accuracy': 0.5657657657657658, 'precision': 0.5467993740563472, 'recall': 0.5657657657657658, 'f1': 0.5364354386134861}, {'accuracy': 0.5423423423423424, 'precision': 0.5251828631138976, 'recall': 0.5423423423423424, 'f1': 0.49754901960784315}, {'accuracy': 0.7621621621621621, 'precision': 0.7766520343623147, 'recall': 0.7621621621621623, 'f1': 0.7670562370839379}, {'accuracy': 0.5837837837837838, 'precision': 0.5915491205096984, 'recall': 0.5837837837837838, 'f1': 0.5539560606488193}, {'accuracy': 0.46306306306306305, 'precision': 0.4169543822449533, 'recall': 0.46306306306306305, 'f1': 0.43548431434676993}, {'accuracy': 0.7549549549549549, 'precision': 0.747106618354794, 'recall': 0.7549549549549549, 'f1': 0.7492072213569214}, {'accuracy': 0.7837837837837838, 'precision': 0.7898929648341886, 'recall': 0.7837837837837839, 'f1': 0.7806172692115436}, {'accuracy': 0.5855855855855856, 'precision': 0.6077986437141366, 'recall': 0.5855855855855856, 'f1': 0.5946250272853087}, {'accuracy': 0.44144144144144143, 'precision': 0.44692729412440085, 'recall': 0.44144144144144143, 'f1': 0.40969245451505837}, {'accuracy': 0.7783783783783784, 'precision': 0.8145444029038434, 'recall': 0.7783783783783784, 'f1': 0.7642829995027917}]
+For accuracy: 58.07$\pm$4.55 %
+For precision: 57.23$\pm$5.04 %
+For recall: 58.07$\pm$4.55 %
+For f1: 56.17$\pm$4.82 %

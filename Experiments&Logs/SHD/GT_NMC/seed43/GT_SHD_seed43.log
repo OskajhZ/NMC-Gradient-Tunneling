@@ -1,0 +1,350 @@
+Data preprocessing ...
+Preprocessing and caching: /home/featurize/datasets/072a0461-d229-4aba-972c-76382b31f65f/shd_test.h5 -> /home/featurize/.cache/LSM_lib/SHD_binned_tc700/shd_test_floor_binary_v2_100_tc700.h5
+  Progress: 2000/2264 samples
+  Progress: 2264/2264 samples
+Cache saved: /home/featurize/.cache/LSM_lib/SHD_binned_tc700/shd_test_floor_binary_v2_100_tc700.h5
+Data amount: train=8156 (augmented lazily), test=2264 (cached).
+Output dim of feedback reservoir: 1000
+Use CUDA
+Model dump location: models/shd/model_state_dict_0.pt
+Log dump location: logs/shd/log_0
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.1
+    maximize: False
+    weight_decay: 0
+
+Parameter Group 1
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0001
+    maximize: False
+    weight_decay: 1e-05
+)
+Trainer Initialization Finished.
+Step 1 test: accuracy=0.147527, f1=0.097067, precision=0.303893, recall=0.140017
+Step 2 test: accuracy=0.257067, f1=0.218277, precision=0.383032, recall=0.249533
+Step 3 test: accuracy=0.321113, f1=0.291635, precision=0.438458, recall=0.311931
+Step 4 test: accuracy=0.374117, f1=0.327498, precision=0.410493, recall=0.367591
+Step 5 test: accuracy=0.387367, f1=0.344360, precision=0.473915, recall=0.378908
+Step 6 test: accuracy=0.396201, f1=0.359404, precision=0.487076, recall=0.389865
+Step 7 test: accuracy=0.365724, f1=0.320196, precision=0.544111, recall=0.363751
+Step 8 test: accuracy=0.435512, f1=0.395171, precision=0.505765, recall=0.429836
+Step 9 test: accuracy=0.386042, f1=0.342452, precision=0.531884, recall=0.384158
+Step 10 test: accuracy=0.359099, f1=0.320031, precision=0.539926, recall=0.356846
+Step 11 test: accuracy=0.417845, f1=0.377778, precision=0.652716, recall=0.410778
+Step 12 test: accuracy=0.416519, f1=0.376885, precision=0.582312, recall=0.409678
+Step 13 test: accuracy=0.485424, f1=0.483680, precision=0.581745, recall=0.482675
+Step 14 test: accuracy=0.440813, f1=0.396642, precision=0.486800, recall=0.436996
+Step 15 test: accuracy=0.498675, f1=0.459318, precision=0.579746, recall=0.494424
+Step 16 test: accuracy=0.479682, f1=0.434504, precision=0.534133, recall=0.477520
+Step 17 test: accuracy=0.458039, f1=0.439294, precision=0.572268, recall=0.451798
+Step 18 test: accuracy=0.421820, f1=0.364048, precision=0.510801, recall=0.415311
+Step 19 test: accuracy=0.502208, f1=0.473213, precision=0.593043, recall=0.500118
+Step 20 test: accuracy=0.435512, f1=0.385790, precision=0.553682, recall=0.429803
+Step 21 test: accuracy=0.507951, f1=0.467127, precision=0.558388, recall=0.497904
+Step 22 test: accuracy=0.504859, f1=0.461301, precision=0.575692, recall=0.503488
+Step 23 test: accuracy=0.494700, f1=0.451853, precision=0.622854, recall=0.483390
+Step 24 test: accuracy=0.507509, f1=0.459781, precision=0.614300, recall=0.497797
+Step 25 test: accuracy=0.483216, f1=0.450921, precision=0.601820, recall=0.475330
+Step 26 test: accuracy=0.515901, f1=0.477511, precision=0.583237, recall=0.509220
+Step 27 test: accuracy=0.428445, f1=0.387519, precision=0.559309, recall=0.421858
+Step 28 test: accuracy=0.465548, f1=0.441691, precision=0.556360, recall=0.461110
+Step 29 test: accuracy=0.434187, f1=0.396794, precision=0.636683, recall=0.426193
+Step 30 test: accuracy=0.542845, f1=0.503487, precision=0.598374, recall=0.541338
+Step 31 test: accuracy=0.496908, f1=0.448788, precision=0.578297, recall=0.491782
+Step 32 test: accuracy=0.521643, f1=0.476153, precision=0.590314, recall=0.516544
+Step 33 test: accuracy=0.508834, f1=0.484817, precision=0.623275, recall=0.505156
+Step 34 test: accuracy=0.454505, f1=0.419715, precision=0.568251, recall=0.449313
+Step 35 test: accuracy=0.565371, f1=0.524717, precision=0.617077, recall=0.557423
+Step 36 test: accuracy=0.496025, f1=0.458125, precision=0.597210, recall=0.487456
+Step 37 test: accuracy=0.541519, f1=0.526298, precision=0.653784, recall=0.538528
+Step 38 test: accuracy=0.528269, f1=0.503980, precision=0.634100, recall=0.526463
+Step 39 test: accuracy=0.500442, f1=0.454895, precision=0.634286, recall=0.493199
+Step 40 test: accuracy=0.558304, f1=0.530945, precision=0.649971, recall=0.552158
+Step 41 test: accuracy=0.496025, f1=0.445143, precision=0.631105, recall=0.488960
+Step 42 test: accuracy=0.541961, f1=0.521396, precision=0.651147, recall=0.535943
+Step 43 test: accuracy=0.477915, f1=0.448865, precision=0.644808, recall=0.469651
+Step 44 test: accuracy=0.547703, f1=0.521721, precision=0.635788, recall=0.542531
+Step 45 test: accuracy=0.526060, f1=0.506214, precision=0.661542, recall=0.516744
+Step 46 test: accuracy=0.569788, f1=0.527817, precision=0.660567, recall=0.562041
+Step 47 test: accuracy=0.590106, f1=0.554653, precision=0.648923, recall=0.584648
+Step 48 test: accuracy=0.595848, f1=0.570068, precision=0.666863, recall=0.589054
+Step 49 test: accuracy=0.602473, f1=0.594337, precision=0.710728, recall=0.597479
+Step 50 test: accuracy=0.371908, f1=0.327717, precision=0.623108, recall=0.370178
+Step 51 test: accuracy=0.549912, f1=0.526629, precision=0.631557, recall=0.543706
+Step 52 test: accuracy=0.566254, f1=0.536256, precision=0.635678, recall=0.564228
+Step 53 test: accuracy=0.449647, f1=0.401534, precision=0.632368, recall=0.442681
+Step 54 test: accuracy=0.444788, f1=0.420601, precision=0.589353, recall=0.438026
+Step 55 test: accuracy=0.499558, f1=0.439290, precision=0.587568, recall=0.494543
+Step 56 test: accuracy=0.570230, f1=0.543601, precision=0.598112, recall=0.565071
+Step 57 test: accuracy=0.567138, f1=0.538102, precision=0.606716, recall=0.565443
+Step 58 test: accuracy=0.581272, f1=0.567310, precision=0.652791, recall=0.576067
+Step 59 test: accuracy=0.588781, f1=0.567335, precision=0.647383, recall=0.580762
+Step 60 test: accuracy=0.556979, f1=0.526882, precision=0.610193, recall=0.551389
+Step 61 test: accuracy=0.512367, f1=0.491346, precision=0.629555, recall=0.505687
+Step 62 test: accuracy=0.608216, f1=0.586714, precision=0.640514, recall=0.605824
+Step 63 test: accuracy=0.541519, f1=0.518712, precision=0.644271, recall=0.535305
+Step 64 test: accuracy=0.568021, f1=0.540105, precision=0.619711, recall=0.561001
+Step 65 test: accuracy=0.500442, f1=0.492150, precision=0.642928, recall=0.493295
+Step 66 test: accuracy=0.560954, f1=0.537587, precision=0.643389, recall=0.550720
+Step 67 test: accuracy=0.564046, f1=0.546571, precision=0.615747, recall=0.561764
+Step 68 test: accuracy=0.558746, f1=0.541948, precision=0.629540, recall=0.553082
+Step 69 test: accuracy=0.569788, f1=0.553875, precision=0.612144, recall=0.568010
+Step 70 test: accuracy=0.569346, f1=0.558180, precision=0.632386, recall=0.562074
+Step 71 test: accuracy=0.570671, f1=0.549620, precision=0.634262, recall=0.565867
+Step 72 test: accuracy=0.488958, f1=0.474296, precision=0.591358, recall=0.482206
+Step 73 test: accuracy=0.558746, f1=0.523265, precision=0.654271, recall=0.551150
+Step 74 test: accuracy=0.600265, f1=0.583800, precision=0.653620, recall=0.592721
+Step 75 test: accuracy=0.546378, f1=0.527893, precision=0.645335, recall=0.540870
+Step 76 test: accuracy=0.571996, f1=0.540057, precision=0.657631, recall=0.563900
+Step 77 test: accuracy=0.606007, f1=0.593967, precision=0.649994, recall=0.602159
+Step 78 test: accuracy=0.530035, f1=0.514896, precision=0.618222, recall=0.523105
+Step 79 test: accuracy=0.591431, f1=0.587843, precision=0.653801, recall=0.589028
+Step 80 test: accuracy=0.537986, f1=0.538824, precision=0.649276, recall=0.534335
+Step 81 test: accuracy=0.561837, f1=0.543299, precision=0.604887, recall=0.555146
+Step 82 test: accuracy=0.552562, f1=0.516763, precision=0.618809, recall=0.548968
+Step 83 test: accuracy=0.557862, f1=0.548376, precision=0.679371, recall=0.551673
+Step 84 test: accuracy=0.590548, f1=0.572413, precision=0.657643, recall=0.583141
+Step 85 test: accuracy=0.606007, f1=0.593137, precision=0.664410, recall=0.598105
+Step 86 test: accuracy=0.542403, f1=0.529192, precision=0.622955, recall=0.539347
+Step 87 test: accuracy=0.640018, f1=0.631778, precision=0.656432, recall=0.636014
+Step 88 test: accuracy=0.595406, f1=0.568422, precision=0.643290, recall=0.591668
+Step 89 test: accuracy=0.613516, f1=0.601381, precision=0.672568, recall=0.607051
+Step 90 test: accuracy=0.611307, f1=0.596439, precision=0.662225, recall=0.605421
+Step 91 test: accuracy=0.602032, f1=0.573754, precision=0.669623, recall=0.594228
+Step 92 test: accuracy=0.666519, f1=0.644692, precision=0.675668, recall=0.661618
+Step 93 test: accuracy=0.636484, f1=0.625263, precision=0.679020, recall=0.631706
+Step 94 test: accuracy=0.622350, f1=0.605746, precision=0.668952, recall=0.615962
+Step 95 test: accuracy=0.580830, f1=0.554964, precision=0.641779, recall=0.572490
+Step 96 test: accuracy=0.647968, f1=0.632681, precision=0.659531, recall=0.643333
+Step 97 test: accuracy=0.601148, f1=0.575820, precision=0.673327, recall=0.596189
+Step 98 test: accuracy=0.608657, f1=0.599706, precision=0.667957, recall=0.603987
+Step 99 test: accuracy=0.652827, f1=0.633073, precision=0.692101, recall=0.644881
+Step 100 test: accuracy=0.625442, f1=0.620594, precision=0.714079, recall=0.620531
+Step 101 test: accuracy=0.575972, f1=0.573451, precision=0.674494, recall=0.568587
+Step 102 test: accuracy=0.649735, f1=0.624593, precision=0.680267, recall=0.639808
+Step 103 test: accuracy=0.589664, f1=0.571363, precision=0.676331, recall=0.585011
+Step 104 test: accuracy=0.584806, f1=0.570673, precision=0.660708, recall=0.579631
+Step 105 test: accuracy=0.617049, f1=0.607067, precision=0.638420, recall=0.614629
+Step 106 test: accuracy=0.607332, f1=0.577971, precision=0.645610, recall=0.604412
+Step 107 test: accuracy=0.548587, f1=0.530197, precision=0.658690, recall=0.539535
+Step 108 test: accuracy=0.618375, f1=0.606922, precision=0.678686, recall=0.614146
+Step 109 test: accuracy=0.643110, f1=0.630796, precision=0.670522, recall=0.637576
+Step 110 test: accuracy=0.566696, f1=0.534243, precision=0.682876, recall=0.555162
+Step 111 test: accuracy=0.605565, f1=0.589327, precision=0.686982, recall=0.596862
+Step 112 test: accuracy=0.591431, f1=0.571638, precision=0.673857, recall=0.585069
+Step 113 test: accuracy=0.408127, f1=0.366282, precision=0.557510, recall=0.406699
+Step 114 test: accuracy=0.635159, f1=0.621581, precision=0.663238, recall=0.630663
+Step 115 test: accuracy=0.602032, f1=0.579421, precision=0.620606, recall=0.596690
+Step 116 test: accuracy=0.584364, f1=0.554257, precision=0.653672, recall=0.576726
+Step 117 test: accuracy=0.609541, f1=0.601960, precision=0.656886, recall=0.605425
+Step 118 test: accuracy=0.647968, f1=0.637411, precision=0.665291, recall=0.645821
+Step 119 test: accuracy=0.614841, f1=0.611752, precision=0.687909, recall=0.609099
+Step 120 test: accuracy=0.631184, f1=0.612606, precision=0.653405, recall=0.626342
+Step 121 test: accuracy=0.583922, f1=0.579421, precision=0.654776, recall=0.579056
+Step 122 test: accuracy=0.636484, f1=0.626360, precision=0.669164, recall=0.631993
+Step 123 test: accuracy=0.612633, f1=0.613303, precision=0.659161, recall=0.609120
+Step 124 test: accuracy=0.613516, f1=0.586609, precision=0.625484, recall=0.612661
+Step 125 test: accuracy=0.592314, f1=0.587426, precision=0.656755, recall=0.589551
+Step 126 test: accuracy=0.646643, f1=0.626226, precision=0.672480, recall=0.640129
+Step 127 test: accuracy=0.616608, f1=0.602979, precision=0.641549, recall=0.612175
+Step 128 test: accuracy=0.604682, f1=0.599024, precision=0.650813, recall=0.600579
+Step 129 test: accuracy=0.617049, f1=0.608683, precision=0.671696, recall=0.613411
+Step 130 test: accuracy=0.613958, f1=0.600759, precision=0.655030, recall=0.608173
+Step 131 test: accuracy=0.620141, f1=0.616449, precision=0.680741, recall=0.616888
+Step 132 test: accuracy=0.663869, f1=0.649323, precision=0.666171, recall=0.662158
+Step 133 test: accuracy=0.625883, f1=0.622988, precision=0.667879, recall=0.621537
+Step 134 test: accuracy=0.627650, f1=0.618819, precision=0.667735, recall=0.621835
+Step 135 test: accuracy=0.583922, f1=0.571602, precision=0.653788, recall=0.578217
+Step 136 test: accuracy=0.603357, f1=0.595930, precision=0.694218, recall=0.597710
+Step 137 test: accuracy=0.559629, f1=0.558146, precision=0.663175, recall=0.554203
+Step 138 test: accuracy=0.655477, f1=0.650516, precision=0.697911, recall=0.650213
+Step 139 test: accuracy=0.606890, f1=0.611745, precision=0.701033, recall=0.601255
+Step 140 test: accuracy=0.622792, f1=0.613341, precision=0.660573, recall=0.618669
+Step 141 test: accuracy=0.609541, f1=0.590201, precision=0.669914, recall=0.604342
+Step 142 test: accuracy=0.627208, f1=0.609646, precision=0.671349, recall=0.622422
+Step 143 test: accuracy=0.625000, f1=0.609815, precision=0.657284, recall=0.621484
+Step 144 test: accuracy=0.596731, f1=0.588091, precision=0.675820, recall=0.589069
+Step 145 test: accuracy=0.544611, f1=0.537004, precision=0.624723, recall=0.537778
+Step 146 test: accuracy=0.603357, f1=0.597976, precision=0.665931, recall=0.598506
+Step 147 test: accuracy=0.585689, f1=0.577877, precision=0.673470, recall=0.578460
+Step 148 test: accuracy=0.648852, f1=0.632886, precision=0.660010, recall=0.647930
+Step 149 test: accuracy=0.623675, f1=0.615617, precision=0.684709, recall=0.618022
+Step 150 test: accuracy=0.576413, f1=0.556280, precision=0.672216, recall=0.569385
+Step 151 test: accuracy=0.605124, f1=0.581755, precision=0.661026, recall=0.599958
+Step 152 test: accuracy=0.607332, f1=0.596506, precision=0.658944, recall=0.601912
+Step 153 test: accuracy=0.580830, f1=0.573679, precision=0.689018, recall=0.574044
+Step 154 test: accuracy=0.594523, f1=0.579948, precision=0.671473, recall=0.588062
+Step 155 test: accuracy=0.655477, f1=0.652138, precision=0.674159, recall=0.652523
+Step 156 test: accuracy=0.643551, f1=0.632521, precision=0.656592, recall=0.638021
+Step 157 test: accuracy=0.575972, f1=0.582538, precision=0.666130, recall=0.572174
+Step 158 test: accuracy=0.593198, f1=0.578544, precision=0.665303, recall=0.585407
+Step 159 test: accuracy=0.603799, f1=0.585701, precision=0.637349, recall=0.597272
+Step 160 test: accuracy=0.633392, f1=0.621429, precision=0.648856, recall=0.629398
+Step 161 test: accuracy=0.623675, f1=0.609726, precision=0.658233, recall=0.618555
+Step 162 test: accuracy=0.603799, f1=0.602502, precision=0.681468, recall=0.596985
+Step 163 test: accuracy=0.647968, f1=0.634929, precision=0.667358, recall=0.642780
+Step 164 test: accuracy=0.648852, f1=0.631394, precision=0.661128, recall=0.643653
+Step 165 test: accuracy=0.647968, f1=0.638248, precision=0.661392, recall=0.643264
+Step 166 test: accuracy=0.605565, f1=0.592882, precision=0.637399, recall=0.602961
+Step 167 test: accuracy=0.623233, f1=0.599946, precision=0.635888, recall=0.618226
+Step 168 test: accuracy=0.613074, f1=0.601037, precision=0.656894, recall=0.610799
+Step 169 test: accuracy=0.593198, f1=0.584769, precision=0.647265, recall=0.585822
+Step 170 test: accuracy=0.623675, f1=0.614852, precision=0.650581, recall=0.618611
+Step 171 test: accuracy=0.643551, f1=0.616582, precision=0.656496, recall=0.639825
+Step 172 test: accuracy=0.657686, f1=0.647008, precision=0.677401, recall=0.651314
+Step 173 test: accuracy=0.629859, f1=0.617586, precision=0.667526, recall=0.626965
+Step 174 test: accuracy=0.652827, f1=0.644019, precision=0.682506, recall=0.646348
+Step 175 test: accuracy=0.631184, f1=0.609116, precision=0.668617, recall=0.626679
+Step 176 test: accuracy=0.660336, f1=0.660172, precision=0.690038, recall=0.656008
+Step 177 test: accuracy=0.642668, f1=0.628779, precision=0.682966, recall=0.639245
+Step 178 test: accuracy=0.651943, f1=0.654744, precision=0.703726, recall=0.647424
+Step 179 test: accuracy=0.647527, f1=0.622247, precision=0.655666, recall=0.640115
+Step 180 test: accuracy=0.663428, f1=0.652985, precision=0.687235, recall=0.658869
+Step 181 test: accuracy=0.621025, f1=0.607522, precision=0.659697, recall=0.617795
+Step 182 test: accuracy=0.661661, f1=0.645030, precision=0.692618, recall=0.655637
+Step 183 test: accuracy=0.685071, f1=0.674829, precision=0.707799, recall=0.680230
+Step 184 test: accuracy=0.651060, f1=0.639451, precision=0.676508, recall=0.647278
+Step 185 test: accuracy=0.675795, f1=0.669503, precision=0.696557, recall=0.672891
+Step 186 test: accuracy=0.629859, f1=0.610330, precision=0.679599, recall=0.625466
+Step 187 test: accuracy=0.659452, f1=0.648812, precision=0.688251, recall=0.652438
+Step 188 test: accuracy=0.621025, f1=0.617294, precision=0.685839, recall=0.616925
+Step 189 test: accuracy=0.675353, f1=0.664768, precision=0.689082, recall=0.670964
+Step 190 test: accuracy=0.675353, f1=0.666163, precision=0.708297, recall=0.668237
+Step 191 test: accuracy=0.628534, f1=0.624186, precision=0.677392, recall=0.623916
+Step 192 test: accuracy=0.659452, f1=0.657960, precision=0.686434, recall=0.655375
+Step 193 test: accuracy=0.631625, f1=0.620909, precision=0.695546, recall=0.626374
+Step 194 test: accuracy=0.645318, f1=0.649739, precision=0.709756, recall=0.640940
+Step 195 test: accuracy=0.639576, f1=0.626971, precision=0.692681, recall=0.635755
+Step 196 test: accuracy=0.662986, f1=0.656806, precision=0.696716, recall=0.658415
+Step 197 test: accuracy=0.673145, f1=0.656231, precision=0.690220, recall=0.667803
+Step 198 test: accuracy=0.659011, f1=0.632429, precision=0.667768, recall=0.655942
+Step 199 test: accuracy=0.688163, f1=0.682895, precision=0.695949, recall=0.683070
+Step 200 test: accuracy=0.599823, f1=0.585858, precision=0.680171, recall=0.592909
+Step 201 test: accuracy=0.662102, f1=0.644999, precision=0.683559, recall=0.659206
+Step 202 test: accuracy=0.632067, f1=0.629980, precision=0.682545, recall=0.626030
+Step 203 test: accuracy=0.680654, f1=0.663923, precision=0.678538, recall=0.675843
+Step 204 test: accuracy=0.662986, f1=0.656898, precision=0.692396, recall=0.659731
+Step 205 test: accuracy=0.662986, f1=0.650270, precision=0.674760, recall=0.658690
+Step 206 test: accuracy=0.679329, f1=0.672388, precision=0.698585, recall=0.674667
+Step 207 test: accuracy=0.713339, f1=0.700488, precision=0.711107, recall=0.710244
+Step 208 test: accuracy=0.658569, f1=0.652802, precision=0.692693, recall=0.652409
+Step 209 test: accuracy=0.624117, f1=0.616343, precision=0.698358, recall=0.617461
+Step 210 test: accuracy=0.661219, f1=0.640400, precision=0.671808, recall=0.654611
+Step 211 test: accuracy=0.672261, f1=0.655337, precision=0.681003, recall=0.667863
+Step 212 test: accuracy=0.659452, f1=0.661723, precision=0.706962, recall=0.656133
+Step 213 test: accuracy=0.652385, f1=0.636166, precision=0.670952, recall=0.650223
+Step 214 test: accuracy=0.685512, f1=0.677179, precision=0.694530, recall=0.682564
+Step 215 test: accuracy=0.640018, f1=0.629305, precision=0.688556, recall=0.634246
+Step 216 test: accuracy=0.654152, f1=0.649987, precision=0.691638, recall=0.649949
+Step 217 test: accuracy=0.650177, f1=0.642646, precision=0.668142, recall=0.644349
+Step 218 test: accuracy=0.679329, f1=0.668523, precision=0.707181, recall=0.674361
+Step 219 test: accuracy=0.622350, f1=0.597436, precision=0.694441, recall=0.615824
+Step 220 test: accuracy=0.666519, f1=0.644872, precision=0.682442, recall=0.659780
+Step 221 test: accuracy=0.678004, f1=0.670981, precision=0.693320, recall=0.674159
+Step 222 test: accuracy=0.581714, f1=0.569891, precision=0.651622, recall=0.576867
+Step 223 test: accuracy=0.621908, f1=0.606207, precision=0.668052, recall=0.613262
+Step 224 test: accuracy=0.689046, f1=0.670617, precision=0.689301, recall=0.682725
+Step 225 test: accuracy=0.659894, f1=0.649225, precision=0.689949, recall=0.655283
+Step 226 test: accuracy=0.683746, f1=0.661381, precision=0.688846, recall=0.676742
+Step 227 test: accuracy=0.687721, f1=0.672866, precision=0.690770, recall=0.681936
+Step 228 test: accuracy=0.653710, f1=0.652236, precision=0.700848, recall=0.649138
+Step 229 test: accuracy=0.643993, f1=0.621592, precision=0.675179, recall=0.637424
+Step 230 test: accuracy=0.662544, f1=0.645583, precision=0.689534, recall=0.656401
+Step 231 test: accuracy=0.654594, f1=0.632645, precision=0.671938, recall=0.648600
+Step 232 test: accuracy=0.647527, f1=0.646021, precision=0.709832, recall=0.643374
+Step 233 test: accuracy=0.655035, f1=0.635937, precision=0.674196, recall=0.649004
+Step 234 test: accuracy=0.699647, f1=0.690132, precision=0.705551, recall=0.696217
+Step 235 test: accuracy=0.675353, f1=0.665687, precision=0.695755, recall=0.669428
+Step 236 test: accuracy=0.693021, f1=0.673920, precision=0.701086, recall=0.687912
+Step 237 test: accuracy=0.651060, f1=0.650656, precision=0.701780, recall=0.644779
+Step 238 test: accuracy=0.618816, f1=0.614758, precision=0.692793, recall=0.610711
+Step 239 test: accuracy=0.659011, f1=0.641464, precision=0.673776, recall=0.653056
+Step 240 test: accuracy=0.639134, f1=0.630263, precision=0.715002, recall=0.632747
+Step 241 test: accuracy=0.662986, f1=0.661167, precision=0.692974, recall=0.657901
+Step 242 test: accuracy=0.710247, f1=0.694480, precision=0.706394, recall=0.705827
+Step 243 test: accuracy=0.650618, f1=0.641178, precision=0.678346, recall=0.644797
+Step 244 test: accuracy=0.674912, f1=0.666716, precision=0.685725, recall=0.669971
+Step 245 test: accuracy=0.677120, f1=0.672486, precision=0.704392, recall=0.670668
+Step 246 test: accuracy=0.679329, f1=0.665801, precision=0.705462, recall=0.675370
+Step 247 test: accuracy=0.677562, f1=0.665220, precision=0.694196, recall=0.673030
+Step 248 test: accuracy=0.628092, f1=0.630485, precision=0.693784, recall=0.620681
+Step 249 test: accuracy=0.668728, f1=0.658114, precision=0.701719, recall=0.664626
+Step 250 test: accuracy=0.678445, f1=0.664889, precision=0.692070, recall=0.674334
+Step 251 test: accuracy=0.678445, f1=0.674688, precision=0.698062, recall=0.674761
+Step 252 test: accuracy=0.615724, f1=0.599488, precision=0.687316, recall=0.605787
+Step 253 test: accuracy=0.663869, f1=0.652197, precision=0.695620, recall=0.658120
+Step 254 test: accuracy=0.702739, f1=0.691804, precision=0.706543, recall=0.698185
+Step 255 test: accuracy=0.638251, f1=0.628124, precision=0.687130, recall=0.630778
+Step 256 test: accuracy=0.679770, f1=0.660440, precision=0.686647, recall=0.673885
+Step 257 test: accuracy=0.625883, f1=0.610611, precision=0.708027, recall=0.617489
+Step 258 test: accuracy=0.688163, f1=0.663707, precision=0.701916, recall=0.680681
+Step 259 test: accuracy=0.696113, f1=0.693177, precision=0.715478, recall=0.693063
+Step 260 test: accuracy=0.674470, f1=0.671370, precision=0.706261, recall=0.668788
+Step 261 test: accuracy=0.665636, f1=0.654430, precision=0.699946, recall=0.663526
+Step 262 test: accuracy=0.641343, f1=0.637570, precision=0.697707, recall=0.636143
+Step 263 test: accuracy=0.676678, f1=0.662421, precision=0.699462, recall=0.671146
+Step 264 test: accuracy=0.659452, f1=0.656476, precision=0.707868, recall=0.653061
+Step 265 test: accuracy=0.696996, f1=0.686035, precision=0.692236, recall=0.693031
+Step 266 test: accuracy=0.681537, f1=0.681893, precision=0.718254, recall=0.677621
+Step 267 test: accuracy=0.680654, f1=0.663743, precision=0.691390, recall=0.677209
+Step 268 test: accuracy=0.666519, f1=0.661010, precision=0.696584, recall=0.660751
+Step 269 test: accuracy=0.693463, f1=0.685882, precision=0.695377, recall=0.691421
+Step 270 test: accuracy=0.685512, f1=0.681220, precision=0.711793, recall=0.681325
+Step 271 test: accuracy=0.669170, f1=0.656445, precision=0.691587, recall=0.664484
+Step 272 test: accuracy=0.708039, f1=0.694646, precision=0.710331, recall=0.703826
+Step 273 test: accuracy=0.675353, f1=0.662538, precision=0.689507, recall=0.669710
+Step 274 test: accuracy=0.667845, f1=0.666750, precision=0.706083, recall=0.661533
+Step 275 test: accuracy=0.693905, f1=0.681043, precision=0.699373, recall=0.688188
+Step 276 test: accuracy=0.673145, f1=0.656882, precision=0.698883, recall=0.670269
+Step 277 test: accuracy=0.653269, f1=0.644796, precision=0.698583, recall=0.648737
+Step 278 test: accuracy=0.674470, f1=0.658050, precision=0.680060, recall=0.670724
+Step 279 test: accuracy=0.715989, f1=0.700113, precision=0.710649, recall=0.711293
+Step 280 test: accuracy=0.676237, f1=0.660691, precision=0.680577, recall=0.670932
+Step 281 test: accuracy=0.670495, f1=0.667628, precision=0.699911, recall=0.664145
+Step 282 test: accuracy=0.620141, f1=0.614114, precision=0.704186, recall=0.612595
+Step 283 test: accuracy=0.651943, f1=0.646026, precision=0.691123, recall=0.646276
+Step 284 test: accuracy=0.697880, f1=0.693035, precision=0.721748, recall=0.693688
+Step 285 test: accuracy=0.659452, f1=0.651499, precision=0.693379, recall=0.656565
+Step 286 test: accuracy=0.660336, f1=0.651451, precision=0.726466, recall=0.653510
+Step 287 test: accuracy=0.683304, f1=0.677680, precision=0.700760, recall=0.680079
+Step 288 test: accuracy=0.698763, f1=0.679964, precision=0.721453, recall=0.693741
+Step 289 test: accuracy=0.675353, f1=0.666454, precision=0.720601, recall=0.668987
+Step 290 test: accuracy=0.679770, f1=0.660415, precision=0.690145, recall=0.674298
+Step 291 test: accuracy=0.684187, f1=0.673754, precision=0.717071, recall=0.680188
+Step 292 test: accuracy=0.662544, f1=0.655243, precision=0.707585, recall=0.657101
+Step 293 test: accuracy=0.669611, f1=0.666651, precision=0.695029, recall=0.664585
+Step 294 test: accuracy=0.700530, f1=0.691369, precision=0.725238, recall=0.694516
+Step 295 test: accuracy=0.639134, f1=0.637952, precision=0.710271, recall=0.632589
+Step 296 test: accuracy=0.681979, f1=0.668702, precision=0.708721, recall=0.677723
+Step 297 test: accuracy=0.684629, f1=0.669547, precision=0.709657, recall=0.681086
+Step 298 test: accuracy=0.696113, f1=0.692407, precision=0.718513, recall=0.690779
+Step 299 test: accuracy=0.708039, f1=0.692457, precision=0.730755, recall=0.704626
+Step 300 test: accuracy=0.706272, f1=0.694117, precision=0.722530, recall=0.699573
+Step 301 test: accuracy=0.675795, f1=0.664116, precision=0.707159, recall=0.669463
+Step 302 test: accuracy=0.701855, f1=0.695144, precision=0.720786, recall=0.697912
+Step 303 test: accuracy=0.661661, f1=0.654294, precision=0.698906, recall=0.656202
+Step 304 test: accuracy=0.712456, f1=0.694536, precision=0.715557, recall=0.707645
+Step 305 test: accuracy=0.685954, f1=0.679008, precision=0.713483, recall=0.681883
+Step 306 test: accuracy=0.693905, f1=0.687721, precision=0.724106, recall=0.689044
+Step 307 test: accuracy=0.688604, f1=0.680650, precision=0.716497, recall=0.683496
+Early stopped at step 307 after 100 consecutive epochs without a test macro-F1 improvement.
+Training finished.
+Final training loss: 0.9057031869888306, training accuracy: 0.8203125
+Best test macro F1 occurred at step 207.
+Best-step test metrics: accuracy=0.713339, f1=0.700488, precision=0.711107, recall=0.710244
+{'accuracy': 0.713339222614841, 'precision': 0.7111072006207999, 'recall': 0.7102441168757624, 'f1': 0.7004875818685974, 'loss': 1.2241251557117638}

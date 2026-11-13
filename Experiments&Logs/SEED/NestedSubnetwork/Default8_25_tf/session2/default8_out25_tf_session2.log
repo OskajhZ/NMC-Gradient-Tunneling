@@ -1,0 +1,560 @@
+Output dim of feedback reservoir: 25
+###################### Fold 1 ######################
+Training set data amount: 1665
+Use CUDA
+Model dump location: models/model_state_dict_1.pt
+Log dump location: logs/log_1
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 1
+    maximize: False
+    weight_decay: 0.0001
+
+Parameter Group 1
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0001
+    maximize: False
+    weight_decay: 0.0001
+)
+Trainer Initialization Finished.
+Early stopped on epoch 172
+Training finished.
+Training loss: 0.9368085861206055, training accuracy: 0.5625
+Highest validation F1: 0.6533059443775325
+Fold 1 Network accuracy: 0.5243243243243243
+###################### Fold 2 ######################
+Training set data amount: 1665
+Use CUDA
+Model dump location: models/model_state_dict_2.pt
+Log dump location: logs/log_2
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 1
+    maximize: False
+    weight_decay: 0.0001
+
+Parameter Group 1
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0001
+    maximize: False
+    weight_decay: 0.0001
+)
+Trainer Initialization Finished.
+Early stopped on epoch 167
+Training finished.
+Training loss: 0.9665994644165039, training accuracy: 0.568359375
+Highest validation F1: 0.3919710385676809
+Fold 2 Network accuracy: 0.47387387387387386
+###################### Fold 3 ######################
+Training set data amount: 1665
+Use CUDA
+Model dump location: models/model_state_dict_3.pt
+Log dump location: logs/log_3
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 1
+    maximize: False
+    weight_decay: 0.0001
+
+Parameter Group 1
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0001
+    maximize: False
+    weight_decay: 0.0001
+)
+Trainer Initialization Finished.
+Early stopped on epoch 220
+Training finished.
+Training loss: 0.9137027859687805, training accuracy: 0.607421875
+Highest validation F1: 0.6274213612937621
+Fold 3 Network accuracy: 0.590990990990991
+###################### Fold 4 ######################
+Training set data amount: 1665
+Use CUDA
+Model dump location: models/model_state_dict_4.pt
+Log dump location: logs/log_4
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 1
+    maximize: False
+    weight_decay: 0.0001
+
+Parameter Group 1
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0001
+    maximize: False
+    weight_decay: 0.0001
+)
+Trainer Initialization Finished.
+Early stopped on epoch 277
+Training finished.
+Training loss: 0.9317180514335632, training accuracy: 0.591796875
+Highest validation F1: 0.6071123713756943
+Fold 4 Network accuracy: 0.4774774774774775
+###################### Fold 5 ######################
+Training set data amount: 1665
+Use CUDA
+Model dump location: models/model_state_dict_5.pt
+Log dump location: logs/log_5
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 1
+    maximize: False
+    weight_decay: 0.0001
+
+Parameter Group 1
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0001
+    maximize: False
+    weight_decay: 0.0001
+)
+Trainer Initialization Finished.
+Early stopped on epoch 126
+Training finished.
+Training loss: 0.9430633783340454, training accuracy: 0.66015625
+Highest validation F1: 0.48742387207144516
+Fold 5 Network accuracy: 0.590990990990991
+###################### Fold 6 ######################
+Training set data amount: 1665
+Use CUDA
+Model dump location: models/model_state_dict_6.pt
+Log dump location: logs/log_6
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 1
+    maximize: False
+    weight_decay: 0.0001
+
+Parameter Group 1
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0001
+    maximize: False
+    weight_decay: 0.0001
+)
+Trainer Initialization Finished.
+Early stopped on epoch 143
+Training finished.
+Training loss: 0.8785049915313721, training accuracy: 0.6328125
+Highest validation F1: 0.4958501896889704
+Fold 6 Network accuracy: 0.6630630630630631
+###################### Fold 7 ######################
+Training set data amount: 1665
+Use CUDA
+Model dump location: models/model_state_dict_7.pt
+Log dump location: logs/log_7
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 1
+    maximize: False
+    weight_decay: 0.0001
+
+Parameter Group 1
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0001
+    maximize: False
+    weight_decay: 0.0001
+)
+Trainer Initialization Finished.
+Training finished.
+Training loss: 0.7993136048316956, training accuracy: 0.71875
+Highest validation F1: 0.8120822431461212
+Fold 7 Network accuracy: 0.7297297297297297
+###################### Fold 8 ######################
+Training set data amount: 1665
+Use CUDA
+Model dump location: models/model_state_dict_8.pt
+Log dump location: logs/log_8
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 1
+    maximize: False
+    weight_decay: 0.0001
+
+Parameter Group 1
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0001
+    maximize: False
+    weight_decay: 0.0001
+)
+Trainer Initialization Finished.
+Early stopped on epoch 101
+Training finished.
+Training loss: 0.8488890528678894, training accuracy: 0.65625
+Highest validation F1: 0.6596788931609762
+Fold 8 Network accuracy: 0.5963963963963964
+###################### Fold 9 ######################
+Training set data amount: 1665
+Use CUDA
+Model dump location: models/model_state_dict_9.pt
+Log dump location: logs/log_9
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 1
+    maximize: False
+    weight_decay: 0.0001
+
+Parameter Group 1
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0001
+    maximize: False
+    weight_decay: 0.0001
+)
+Trainer Initialization Finished.
+Early stopped on epoch 162
+Training finished.
+Training loss: 0.9235283732414246, training accuracy: 0.623046875
+Highest validation F1: 0.5617533610455755
+Fold 9 Network accuracy: 0.6684684684684684
+###################### Fold 10 ######################
+Training set data amount: 1665
+Use CUDA
+Model dump location: models/model_state_dict_10.pt
+Log dump location: logs/log_10
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 1
+    maximize: False
+    weight_decay: 0.0001
+
+Parameter Group 1
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0001
+    maximize: False
+    weight_decay: 0.0001
+)
+Trainer Initialization Finished.
+Early stopped on epoch 112
+Training finished.
+Training loss: 1.0004072189331055, training accuracy: 0.513671875
+Highest validation F1: 0.5649906933810461
+Fold 10 Network accuracy: 0.37657657657657656
+###################### Fold 11 ######################
+Training set data amount: 1665
+Use CUDA
+Model dump location: models/model_state_dict_11.pt
+Log dump location: logs/log_11
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 1
+    maximize: False
+    weight_decay: 0.0001
+
+Parameter Group 1
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0001
+    maximize: False
+    weight_decay: 0.0001
+)
+Trainer Initialization Finished.
+Training finished.
+Training loss: 0.9029747247695923, training accuracy: 0.5859375
+Highest validation F1: 0.6526994031958827
+Fold 11 Network accuracy: 0.6234234234234234
+###################### Fold 12 ######################
+Training set data amount: 1665
+Use CUDA
+Model dump location: models/model_state_dict_12.pt
+Log dump location: logs/log_12
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 1
+    maximize: False
+    weight_decay: 0.0001
+
+Parameter Group 1
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0001
+    maximize: False
+    weight_decay: 0.0001
+)
+Trainer Initialization Finished.
+Early stopped on epoch 113
+Training finished.
+Training loss: 0.9633955359458923, training accuracy: 0.5703125
+Highest validation F1: 0.5180132400042128
+Fold 12 Network accuracy: 0.572972972972973
+###################### Fold 13 ######################
+Training set data amount: 1665
+Use CUDA
+Model dump location: models/model_state_dict_13.pt
+Log dump location: logs/log_13
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 1
+    maximize: False
+    weight_decay: 0.0001
+
+Parameter Group 1
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0001
+    maximize: False
+    weight_decay: 0.0001
+)
+Trainer Initialization Finished.
+Early stopped on epoch 139
+Training finished.
+Training loss: 0.8489971160888672, training accuracy: 0.62890625
+Highest validation F1: 0.6114253928521763
+Fold 13 Network accuracy: 0.6288288288288288
+###################### Fold 14 ######################
+Training set data amount: 1665
+Use CUDA
+Model dump location: models/model_state_dict_14.pt
+Log dump location: logs/log_14
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 1
+    maximize: False
+    weight_decay: 0.0001
+
+Parameter Group 1
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0001
+    maximize: False
+    weight_decay: 0.0001
+)
+Trainer Initialization Finished.
+Early stopped on epoch 178
+Training finished.
+Training loss: 0.9441384673118591, training accuracy: 0.5859375
+Highest validation F1: 0.47787306959197434
+Fold 14 Network accuracy: 0.44144144144144143
+###################### Fold 15 ######################
+Training set data amount: 1665
+Use CUDA
+Model dump location: models/model_state_dict_15.pt
+Log dump location: logs/log_15
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 1
+    maximize: False
+    weight_decay: 0.0001
+
+Parameter Group 1
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0001
+    maximize: False
+    weight_decay: 0.0001
+)
+Trainer Initialization Finished.
+Early stopped on epoch 104
+Training finished.
+Training loss: 0.8418757319450378, training accuracy: 0.67578125
+Highest validation F1: 0.7286892778795435
+Fold 15 Network accuracy: 0.6342342342342342
+Full Record:
+[{'accuracy': 0.5243243243243243, 'precision': 0.5163585994857023, 'recall': 0.5243243243243244, 'f1': 0.5190645176685552, 'loss': 0.9877881220869116}, {'accuracy': 0.47387387387387386, 'precision': 0.47810198828744604, 'recall': 0.4738738738738739, 'f1': 0.47431044663875666, 'loss': 1.03983652827976}, {'accuracy': 0.590990990990991, 'precision': 0.6043630017452006, 'recall': 0.5909909909909911, 'f1': 0.5765529504963381, 'loss': 0.942716653712161}, {'accuracy': 0.4774774774774775, 'precision': 0.46200726273190046, 'recall': 0.4774774774774775, 'f1': 0.44832124157140085, 'loss': 1.0419509479591438}, {'accuracy': 0.590990990990991, 'precision': 0.5827837941937853, 'recall': 0.5909909909909911, 'f1': 0.5815029950771123, 'loss': 0.9840908409238935}, {'accuracy': 0.6630630630630631, 'precision': 0.6466548480850434, 'recall': 0.6630630630630631, 'f1': 0.6291771094402673, 'loss': 0.8584853898297559}, {'accuracy': 0.7297297297297297, 'precision': 0.7524120778411655, 'recall': 0.7297297297297298, 'f1': 0.7332087195247627, 'loss': 0.8180712639748513}, {'accuracy': 0.5963963963963964, 'precision': 0.5807955381959453, 'recall': 0.5963963963963964, 'f1': 0.5850248573408567, 'loss': 0.9916638213234978}, {'accuracy': 0.6684684684684684, 'precision': 0.650015702160114, 'recall': 0.6684684684684684, 'f1': 0.655327139601269, 'loss': 0.8411023562018936}, {'accuracy': 0.37657657657657656, 'precision': 0.32034215651609727, 'recall': 0.37657657657657656, 'f1': 0.3328178413832035, 'loss': 1.0927904479138486}, {'accuracy': 0.6234234234234234, 'precision': 0.6119377963675892, 'recall': 0.6234234234234234, 'f1': 0.6148903763761376, 'loss': 0.806163515808346}, {'accuracy': 0.572972972972973, 'precision': 0.5850813265107329, 'recall': 0.572972972972973, 'f1': 0.5557483573341481, 'loss': 0.9758162414705431}, {'accuracy': 0.6288288288288288, 'precision': 0.6182278551509871, 'recall': 0.6288288288288288, 'f1': 0.5790133489043959, 'loss': 0.824700047948339}, {'accuracy': 0.44144144144144143, 'precision': 0.6233173342160433, 'recall': 0.44144144144144154, 'f1': 0.38551246149667734, 'loss': 0.9925496147559569}, {'accuracy': 0.6342342342342342, 'precision': 0.6536304436304436, 'recall': 0.6342342342342343, 'f1': 0.6045267151149504, 'loss': 0.9263915603225296}]
+For accuracy: 57.29$\pm$3.04 %
+For precision: 57.91$\pm$3.22 %
+For recall: 57.29$\pm$3.04 %
+For f1: 55.17$\pm$3.31 %

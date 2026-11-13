@@ -1,0 +1,263 @@
+No shuffle seed file detected. Generate while executing.
+###################### Fold 1 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 0.5661973409770569
+Test | Loss: 0.7434 | Acc: 0.4623 | F1: 0.4620
+Fold 1 Network accuracy: 0.4623015873015873
+###################### Fold 2 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 1.0
+Test | Loss: 0.4403 | Acc: 0.8849 | F1: 0.4695
+Fold 2 Network accuracy: 0.8849206349206349
+###################### Fold 3 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 1.0
+Test | Loss: 0.5616 | Acc: 0.8234 | F1: 0.4516
+Fold 3 Network accuracy: 0.8234126984126984
+###################### Fold 4 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 0.593762046609427
+Test | Loss: 0.6250 | Acc: 0.6210 | F1: 0.6204
+Fold 4 Network accuracy: 0.621031746031746
+###################### Fold 5 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 1.0
+Test | Loss: 0.8503 | Acc: 0.2619 | F1: 0.2075
+Fold 5 Network accuracy: 0.2619047619047619
+###################### Fold 6 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 1.0
+Test | Loss: 0.2678 | Acc: 0.9464 | F1: 0.4862
+Fold 6 Network accuracy: 0.9464285714285714
+###################### Fold 7 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 1.0
+Test | Loss: 0.0000 | Acc: 1.0000 | F1: 1.0000
+Fold 7 Network accuracy: 1.0
+###################### Fold 8 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 1.0
+Test | Loss: 0.6660 | Acc: 0.7520 | F1: 0.4369
+Fold 8 Network accuracy: 0.751984126984127
+###################### Fold 9 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 0.5386659580122243
+Test | Loss: 0.6333 | Acc: 0.6151 | F1: 0.6150
+Fold 9 Network accuracy: 0.6150793650793651
+###################### Fold 10 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 1.0
+Test | Loss: 0.6533 | Acc: 0.6746 | F1: 0.6670
+Fold 10 Network accuracy: 0.6746031746031746
+###################### Fold 11 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 1.0
+Test | Loss: 0.9025 | Acc: 0.1548 | F1: 0.1483
+Fold 11 Network accuracy: 0.15476190476190477
+###################### Fold 12 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 0.5815256875973015
+Test | Loss: 0.8603 | Acc: 0.5635 | F1: 0.5621
+Fold 12 Network accuracy: 0.5634920634920635
+###################### Fold 13 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 0.7372810675562969
+Test | Loss: 0.8209 | Acc: 0.4623 | F1: 0.4501
+Fold 13 Network accuracy: 0.4623015873015873
+###################### Fold 14 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 171 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 0.697607957685324
+Test | Loss: 0.7903 | Acc: 0.4960 | F1: 0.4105
+Fold 14 Network accuracy: 0.49603174603174605
+###################### Fold 15 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 0.6258018531717747
+Test | Loss: 0.6925 | Acc: 0.5179 | F1: 0.5176
+Fold 15 Network accuracy: 0.5178571428571429
+###################### Fold 16 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 104 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 0.5706018518518519
+Test | Loss: 0.5424 | Acc: 0.7440 | F1: 0.7423
+Fold 16 Network accuracy: 0.7440476190476191
+###################### Fold 17 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 1.0
+Test | Loss: 0.7704 | Acc: 0.3849 | F1: 0.3748
+Fold 17 Network accuracy: 0.38492063492063494
+###################### Fold 18 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 1.0
+Test | Loss: 0.4443 | Acc: 0.8433 | F1: 0.4575
+Fold 18 Network accuracy: 0.8432539682539683
+###################### Fold 19 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 1.0
+Test | Loss: 0.6577 | Acc: 0.6329 | F1: 0.5310
+Fold 19 Network accuracy: 0.6329365079365079
+###################### Fold 20 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 1.0
+Test | Loss: 0.6455 | Acc: 0.5675 | F1: 0.3620
+Fold 20 Network accuracy: 0.5674603174603174
+###################### Fold 21 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 1.0
+Test | Loss: 0.7665 | Acc: 0.4821 | F1: 0.4759
+Fold 21 Network accuracy: 0.48214285714285715
+###################### Fold 22 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 0.6164541341011929
+Test | Loss: 0.7566 | Acc: 0.5218 | F1: 0.5156
+Fold 22 Network accuracy: 0.5218253968253969
+###################### Fold 23 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 1.0
+Test | Loss: 0.4679 | Acc: 0.9167 | F1: 0.4783
+Fold 23 Network accuracy: 0.9166666666666666
+###################### Fold 24 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 0.5154517738359202
+Test | Loss: 0.7015 | Acc: 0.5397 | F1: 0.5361
+Fold 24 Network accuracy: 0.5396825396825397
+###################### Fold 25 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 1.0
+Test | Loss: 0.7009 | Acc: 0.5694 | F1: 0.5694
+Fold 25 Network accuracy: 0.5694444444444444
+###################### Fold 26 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 1.0
+Test | Loss: 0.6674 | Acc: 0.5813 | F1: 0.4546
+Fold 26 Network accuracy: 0.5813492063492064
+###################### Fold 27 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 1.0
+Test | Loss: 0.3864 | Acc: 0.9901 | F1: 0.4975
+Fold 27 Network accuracy: 0.9900793650793651
+###################### Fold 28 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 1.0
+Test | Loss: 0.6411 | Acc: 0.6389 | F1: 0.6228
+Fold 28 Network accuracy: 0.6388888888888888
+###################### Fold 29 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 0.5901506033893894
+Test | Loss: 0.6977 | Acc: 0.5377 | F1: 0.5376
+Fold 29 Network accuracy: 0.5376984126984127
+###################### Fold 30 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 1.0
+Test | Loss: 0.7313 | Acc: 0.4742 | F1: 0.3217
+Fold 30 Network accuracy: 0.4742063492063492
+###################### Fold 31 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 101 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 1.0
+Test | Loss: 0.6029 | Acc: 0.7440 | F1: 0.4266
+Fold 31 Network accuracy: 0.7440476190476191
+###################### Fold 32 ######################
+Training set data amount: 1512
+Starting SRNN + D_RTRL training (vmap batch)
+Early stopping after 142 epochs
+Best parameters successfully loaded via path-matching assignment.
+Validation | F1: 0.5924744897959183
+Test | Loss: 0.8616 | Acc: 0.4544 | F1: 0.4504
+Fold 32 Network accuracy: 0.45436507936507936
+Full Record:
+[{'accuracy': 0.4623015873015873, 'precision': 0.46222961992963413, 'recall': 0.4623015873015873, 'f1': 0.46204533370093936}, {'accuracy': 0.8849206349206349, 'precision': 0.5, 'recall': 0.44246031746031744, 'f1': 0.4694736842105263}, {'accuracy': 0.8234126984126984, 'precision': 0.5, 'recall': 0.4117063492063492, 'f1': 0.4515778019586507}, {'accuracy': 0.621031746031746, 'precision': 0.621878121878122, 'recall': 0.621031746031746, 'f1': 0.6203726708074534}, {'accuracy': 0.2619047619047619, 'precision': 0.5, 'recall': 0.13095238095238096, 'f1': 0.20754716981132076}, {'accuracy': 0.9464285714285714, 'precision': 0.5, 'recall': 0.4732142857142857, 'f1': 0.48623853211009177}, {'accuracy': 1.0, 'precision': 1.0, 'recall': 1.0, 'f1': 1.0}, {'accuracy': 0.751984126984127, 'precision': 0.8757455268389662, 'recall': 0.503968253968254, 'f1': 0.43693190451080105}, {'accuracy': 0.6150793650793651, 'precision': 0.6151954602774274, 'recall': 0.6150793650793651, 'f1': 0.6149823588709677}, {'accuracy': 0.6746031746031746, 'precision': 0.6920731707317074, 'recall': 0.6746031746031746, 'f1': 0.6670319046084434}, {'accuracy': 0.15476190476190477, 'precision': 0.510255018990776, 'recall': 0.5034013605442177, 'f1': 0.14827039035226913}, {'accuracy': 0.5634920634920635, 'precision': 0.5642857142857143, 'recall': 0.5634920634920635, 'f1': 0.562140645731977}, {'accuracy': 0.4623015873015873, 'precision': 0.45863784792411755, 'recall': 0.4623015873015873, 'f1': 0.4501250045291496}, {'accuracy': 0.49603174603174605, 'precision': 0.4905405405405405, 'recall': 0.49603174603174605, 'f1': 0.4104774535809019}, {'accuracy': 0.5178571428571429, 'precision': 0.5178912326649101, 'recall': 0.5178571428571428, 'f1': 0.5176273656432777}, {'accuracy': 0.7440476190476191, 'precision': 0.7506834026171489, 'recall': 0.7440476190476191, 'f1': 0.7423425208552124}, {'accuracy': 0.38492063492063494, 'precision': 0.4429768689239021, 'recall': 0.4285714285714286, 'f1': 0.37483994878361077}, {'accuracy': 0.8432539682539683, 'precision': 0.5, 'recall': 0.42162698412698413, 'f1': 0.45748116254036597}, {'accuracy': 0.6329365079365079, 'precision': 0.5305096565484377, 'recall': 0.533068783068783, 'f1': 0.5309646814996655}, {'accuracy': 0.5674603174603174, 'precision': 0.5, 'recall': 0.2837301587301587, 'f1': 0.3620253164556962}, {'accuracy': 0.48214285714285715, 'precision': 0.5520976200080678, 'recall': 0.5433862433862434, 'f1': 0.4759015263495504}, {'accuracy': 0.5218253968253969, 'precision': 0.5230022404779686, 'recall': 0.5218253968253967, 'f1': 0.5156300470157557}, {'accuracy': 0.9166666666666666, 'precision': 0.5, 'recall': 0.4583333333333333, 'f1': 0.4782608695652174}, {'accuracy': 0.5396825396825397, 'precision': 0.5409303534303534, 'recall': 0.5396825396825397, 'f1': 0.5361472548397335}, {'accuracy': 0.5694444444444444, 'precision': 0.569454287739192, 'recall': 0.5694444444444444, 'f1': 0.5694291889593595}, {'accuracy': 0.5813492063492064, 'precision': 0.5010398098633393, 'recall': 0.5022675736961452, 'f1': 0.4545538475742049}, {'accuracy': 0.9900793650793651, 'precision': 0.5, 'recall': 0.49503968253968256, 'f1': 0.49750747756729813}, {'accuracy': 0.6388888888888888, 'precision': 0.6217750675315012, 'recall': 0.6264550264550265, 'f1': 0.6228289473684211}, {'accuracy': 0.5376984126984127, 'precision': 0.5377275234418092, 'recall': 0.5376984126984128, 'f1': 0.5376092169455087}, {'accuracy': 0.4742063492063492, 'precision': 0.5, 'recall': 0.2371031746031746, 'f1': 0.32166890982503366}, {'accuracy': 0.7440476190476191, 'precision': 0.5, 'recall': 0.37202380952380953, 'f1': 0.42662116040955633}, {'accuracy': 0.45436507936507936, 'precision': 0.4529965128537832, 'recall': 0.45436507936507936, 'f1': 0.4503642427438959}]
+For accuracy: 62.06$\pm$6.39 %
+For precision: 55.72$\pm$3.83 %
+For recall: 50.46$\pm$4.74 %
+For f1: 49.56$\pm$4.75 %
